@@ -1,0 +1,56 @@
+.technology-watch {
+  font-family: "Montserrat", sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ecf8f6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #18534f;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      background-color: #feeaa1;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+
+      h3 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+        color: #226d68;
+      }
+
+      p {
+        margin-bottom: 15px;
+        color: #333;
+        font-size: 1.2em;
+        line-height: 1.6;
+        padding: 10px;
+        background-color: #d6965b;
+        border-radius: 8px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #18534f;
+        font-weight: bold;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #226d68;
+        }
+      }
+    }
+  }
+}
